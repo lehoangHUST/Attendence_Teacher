@@ -1,8 +1,8 @@
 package com.example.attendence;
 
 public class Admin {
-    private String username;
-    private String password;
+    private String adminUser;
+    private String adminPass;
 
 
     public  Admin(){
@@ -10,15 +10,15 @@ public class Admin {
     }
 
     public Admin(String username, String password) {
-        this.username = username;
-        this.password = password;
+        this.adminUser = username;
+        this.adminPass = password;
     }
 
     public String getAdminUser() {
-        return username;
+        return this.adminUser;
     }
 
     public String getAdminPass() {
-        return password;
+        return this.adminPass;
     }
 }

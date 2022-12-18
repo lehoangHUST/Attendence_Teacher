@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:layout_centerHorizontal="true"
-    android:background="@drawable/mcneese1" >
+    android:background="@drawable/hust" >
 
     <ImageView
         android:id="@+id/imageView4"

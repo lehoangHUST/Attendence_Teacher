@@ -55,6 +55,8 @@
             android:id="@+id/editemail"
             android:layout_width="250dp"
             android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="300dp"
             android:layout_alignBottom="@+id/imageView2"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="-78dp"
@@ -70,25 +72,25 @@
             android:textStyle="bold"
             />
 
+        <CheckBox
+            android:id="@+id/checkbox_btn_main"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text = "Show Password"
+            android:textSize = "20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editpassword"
+            />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="161dp"
             android:layout_height="120dp"
-
             android:layout_marginLeft="130dp"
-            android:layout_marginTop="50dp"
-            app:srcCompat="@drawable/logo" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_alignEnd="@+id/imageView"
-            android:layout_alignBottom="@+id/imageView"
             android:layout_marginTop="100dp"
-            android:layout_marginEnd="-76dp"
-            android:layout_marginBottom="-106dp"
-            app:srcCompat="@drawable/mcneesename" />
+            app:srcCompat="@drawable/logo_hust" />
+
+
 
         <Button
             android:id="@+id/loginmainbutton"
@@ -97,7 +99,7 @@
             android:layout_alignLeft="@+id/editpassword"
             android:layout_alignBottom="@+id/editpassword"
             android:layout_marginLeft="83dp"
-            android:layout_marginBottom="-98dp"
+            android:layout_marginBottom="-150dp"
             android:background="@drawable/submit"
             android:onClick="login"
             android:padding="20dp"
